@@ -1,0 +1,1 @@
+Hello! This is the source code of my personal blog that you can find [here](https://blog.darklynx.org/). I've been relying on [this](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog) guide in order to create this blog. Thanks, Josh, for writing such an amazing tutorial!
