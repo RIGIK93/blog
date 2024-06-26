@@ -105,8 +105,12 @@ $$
 > \Delta = \sum^{n}_{i=1} \left(\sup_{x \in (p_{i},p_{i+1})} f(x) - \sup_{x \in (p_{i},p_{i+1})} f(x) \right).
 > $$
 > 
-> By definition of supremum and infimum 
-> $$\forall i \in [1\dots n],\left(\sup_{x \in (p_{i},p_{i+1})} f(x) - \inf_{x \in (p_{i},p_{i+1})} f(x)\right) \geq 0;$$ therefore,
+> By definition of supremum and infimum,
+>
+> $$
+>   \forall i \in [1\dots n],\left(\sup_{x \in (p_{i},p_{i+1})} f(x) - \inf_{x \in (p_{i},p_{i+1})} f(x)\right) \geq 0;
+> $$ 
+> therefore,
 > 
 > $$
 > \Delta \geq 0 \implies \mathcal{U}(f,P) - \mathcal{L}(f,P) \geq 0 \implies \mathcal{U}(f,P) \geq \mathcal{L}(f,P) \implies \mathcal{L}(f,P) \leq \mathcal{U}(f,P). \square
