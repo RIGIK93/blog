@@ -3,11 +3,11 @@ title: Introduction to Darboux Integral
 date: "2024-05-17"
 ---
 
-<script>
+<!-- <script>
     import Note from "$lib/components/callouts/Note.svelte"
     import Info from "$lib/components/callouts/Info.svelte"
     import Example from "$lib/components/callouts/Example.svelte"
-</script>
+</script> -->
 
 ### Partition
 
