@@ -99,7 +99,7 @@ $$
 > \Delta = \mathcal{U}(f,P) - \mathcal{L}(f,P),
 > $$
 > 
-> which, by definition of [upper](#upper-Darboux-sum) and [lower](/Darboux%20Integral#lower-darboux-sum) Darboux sums is equal to
+> which, by definition of [upper](/Darboux%20Integral#upper-darboux-sum) and [lower](/Darboux%20Integral#lower-darboux-sum) Darboux sums is equal to
 > 
 > $$
 > \Delta = \sum^{n}_{i=1} \left(\sup_{x \in (p_{i},p_{i+1})} f(x) - \sup_{x \in (p_{i},p_{i+1})} f(x) \right).
