@@ -6,6 +6,8 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypePrism from '@mapbox/rehype-prism'
 import rehypeKatex from 'rehype-katex-svelte'
 import remarkMath from 'remark-math'
+import remarkParse from 'remark-parse'
+import remarkWikiLink from '@portaljs/remark-wiki-link'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -19,10 +21,15 @@ const config = {
 				rehypeSlug, 
 				rehypeAutolinkHeadings,
 				rehypePrism,
-				rehypeKatex
+				rehypeKatex,
 			],
 			remarkPlugins: [
 				remarkMath,
+				remarkParse,
+				remarkWikiLink,
+				// remarkCallouts,
+				// remarkRehype,
+				// rehypeStringify
 			]
 		})
 	],

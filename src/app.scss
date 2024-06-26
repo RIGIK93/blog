@@ -23,3 +23,7 @@
         opacity: 1;
     }
 }
+
+.katex-display {
+    @apply overflow-x-scroll;
+}
