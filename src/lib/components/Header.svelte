@@ -2,7 +2,7 @@
     import ThemeSwitcher from "./ThemeSwitcher.svelte";
 </script>
 
-<nav class="flex justify-between mb-4 not-prose sticky top-0 py-2 bg-gradient-to-b from-base-100 to-transparent ">
+<nav class="flex justify-between mb-4 not-prose sticky top-0 py-2 bg-gradient-to-b from-base-100 to-transparent z-[1]">
 
     <div role="tablist" class="">
         <a role="tab" class="btn btn-sm" href="https://darklynx.org/">Board</a>
